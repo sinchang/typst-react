@@ -1,22 +1,18 @@
 // https://github.com/skyzh/typst-cv-template/blob/master/cv.typ
-
 #show heading: set text(font: "Linux Biolinum")
 
-#let style_color = rgb("#ffffff")
-
-#set text(fill: style_color)
-#show link: it => underline(stroke: style_color, it)
+#show link: underline
 #set page(
  margin: (x: 0.9cm, y: 1.3cm),
 )
 #set par(justify: true)
 
-#let chiline() = {v(-3pt); line(length: 100%, stroke: style_color); v(-5pt)}
+#let chiline() = {v(-3pt); line(length: 100%); v(-5pt)}
 
-= Alex Chi
+= Maja Sinem
 
-skyzh\@cmu.edu |
-#link("https://github.com/skyzh")[github.com/skyzh] | #link("https://skyzh.dev")[skyzh.dev]
+hello\@example.com |
+#link("https://github.com/example")[github.com/example] | #link("https://example.com")[example.com]
 
 == Education
 #chiline()
